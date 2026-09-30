@@ -4,15 +4,15 @@ skip_process_reads: true
 skip_make_database_sra: true
 skip_mining_sra: true
 
-skip_reformat_sra: true
-skip_exonerate_sra: true
-skip_stitcher_sra: true
+skip_reformat_sra: false
+skip_exonerate_sra: false
+skip_stitcher_sra: false
 
-skip_mapping: true
-skip_consensus: true
-skip_alignment: true
+skip_mapping: false
+skip_consensus: false
+skip_alignment: false
 
-skip_cleaning: true
+skip_cleaning: false
 skip_filtering: false
 
 skip_partitionfinder: false
