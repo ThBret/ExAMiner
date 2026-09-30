@@ -1,0 +1,27 @@
+samples_list: /home/tbret/scratch/local_assembly_pipeline/1-info/samples.txt
+baits_list: /home/tbret/scratch/local_assembly_pipeline/1-info/baits.txt
+skip_process_reads: true
+skip_make_database_sra: true
+skip_mining_sra: true
+
+skip_reformat_sra: true
+skip_exonerate_sra: true
+skip_stitcher_sra: true
+
+skip_mapping: true
+skip_consensus: true
+skip_alignment: true
+
+skip_cleaning: true
+skip_filtering: false
+
+skip_partitionfinder: false
+skip_mrbayes: false
+skip_datasets: false
+
+examiner_threshold: 0.8
+examiner_score: 0.10
+examiner_overlap_mismatch_tolerance: 0
+n_percent: 25
+s_percent: 90
+samtools_depth: 4
